@@ -11,8 +11,8 @@
         theme: {
           extend: {
             colors: {
-              "soh-green": '#9DB170'
-              "soh-green-dark": "#657540"
+              'soh-green': '#9DB170',
+              'soh-green-dark': '#657540',
             },
           },
         },
@@ -27,36 +27,40 @@
     </style>
   </head>
   <body>
-    <nav class="flex items-center justify-between py-6 px-3">
-      <div class="text-soh-green uppercase">Seeds of Hope</div>
-      <div>
-        <ul class="flex items-center justify-center space-x-6">
-          <li>
-            <a class="hover:text-soh-green-dark" href="#">Stories of Hope</a>
-          </li>
-          <li>
-            <a class="hover:text-soh-green-dark" href="#">Learn More</a>
-          </li>
-          <li>
-            <a
-              class="
-                bg-soh-green
-                text-white
-                hover:bg-soh-green-dark
-                px-5
-                py-2
-                rounded-full
-              "
-              href="#give"
-            >
-              Give Now
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <!-- Nav -->
+    <div class="container mx-auto px-3">
+      <nav class="flex items-center justify-between py-6">
+        <div class="text-soh-green uppercase">Seeds of Hope</div>
+        <div>
+          <ul class="flex items-center justify-center space-x-6">
+            <li>
+              <a class="hover:text-soh-green-dark" href="#">Stories of Hope</a>
+            </li>
+            <li>
+              <a class="hover:text-soh-green-dark" href="#">Learn More</a>
+            </li>
+            <li>
+              <a
+                class="
+                  bg-soh-green
+                  text-white
+                  hover:bg-soh-green-dark
+                  px-5
+                  py-2
+                  rounded-full
+                "
+                href="#give"
+              >
+                Give Now
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Header -->
     <header>
-      <div class="container mx-auto flex">
+      <div class="container mx-auto px-3 flex">
         <div>IMG</div>
         <div>
           <h1 class="text-soh-green font-bold text-4xl">
