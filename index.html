@@ -1,14 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Example</title>
+    <title>Seeds of Hope</title>
     <script src="https://cdn-tailwindcss.vercel.app/"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/zga8pwg.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "soh-green": '#9DB170'
+              "soh-green-dark": "#657540"
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: termina, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
   </head>
   <body>
-    <div class="bg-red-500">
-      Testing
-    </div>
+    <nav class="flex items-center justify-between py-6 px-3">
+      <div class="text-soh-green uppercase">Seeds of Hope</div>
+      <div>
+        <ul class="flex items-center justify-center space-x-6">
+          <li>
+            <a class="hover:text-soh-green-dark" href="#">Stories of Hope</a>
+          </li>
+          <li>
+            <a class="hover:text-soh-green-dark" href="#">Learn More</a>
+          </li>
+          <li>
+            <a
+              class="
+                bg-soh-green
+                text-white
+                hover:bg-soh-green-dark
+                px-5
+                py-2
+                rounded-full
+              "
+              href="#give"
+            >
+              Give Now
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <div class="container mx-auto flex">
+        <div>IMG</div>
+        <div>
+          <h1 class="text-soh-green font-bold text-4xl">
+            Give today for 2x the impact! Your Vision Fund gift will be matched!
+          </h1>
+          <div class="h-8"></div>
+          <a
+            class="
+              bg-green-smoke
+              text-white
+              hover:bg-dingley
+              px-5
+              py-2
+              rounded-full
+            "
+            href="#give"
+          >
+            Give Now
+          </a>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
